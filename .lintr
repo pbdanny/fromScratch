@@ -1,4 +1,6 @@
 linters: linters_with_defaults(
-    indentation_linter = 
-) # see vignette("lintr")
+    commented_code_linter = NULL,
+    # trailing_whitespace_linter = NULL,
+    line_length_linter(length = 150L),
+    indentation_linter = NULL)
 encoding: "UTF-8"
